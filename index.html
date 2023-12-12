@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__dot"></div>
+    <div class="bg__dot"></div>
+  </div>
+  <div class="container">
+    <span class="input-box">
+      <input 
+        type="number" 
+        id="number-input" 
+        placeholder="Put the number"
+      >
+    </span>
+    <div class="answer-box">
+      <span class="less-number">
+        <p>the largest prime number <br> less than X:</p>
+        
+        <p class="answer-number">NaN</p>
+      </span>
+      <span class="greater-number">
+        <p>the smallest prime number greater than X:</p>
+        <p class="answer-number">NaN</p>
+      </span>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
